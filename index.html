@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBP Wiki</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="./dist/bundle.js"></script>
+  </head>
+  <body>
+    <div id="nav">
+      <span>Tredec's GBP-Wiki</span>
+      <div id="main-selector">
+        <div class="active">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-layout-dashboard"
+            data-d-component="icon"
+            style="
+              color: rgb(255, 255, 255);
+              font-size: 14px;
+              --darkreader-inline-stroke: currentColor;
+              --darkreader-inline-color: var(--darkreader-text-ffffff, #e8e6e3);
+            "
+            data-darkreader-inline-stroke=""
+            data-darkreader-inline-color=""
+          >
+            <rect width="7" height="9" x="3" y="3" rx="1"></rect>
+            <rect width="7" height="5" x="14" y="3" rx="1"></rect>
+            <rect width="7" height="9" x="14" y="12" rx="1"></rect>
+            <rect width="7" height="5" x="3" y="16" rx="1"></rect>
+          </svg>
+          Übersicht
+        </div>
+        <select id="gb-selector">
+          <option value="" disabled selected hidden>LG Auswahl...</option>
+        </select>
+      </div>
+    </div>
+    <div id="gb-overview-wrapper">
+      <div id="overview-introduction">
+        <span>Wichtige vorabinfo:</span>
+        <ul>
+          <li>
+            Alle Daten sind von der Beta-Testphase des LG-Updates vom 8.10.2026. Weitere Änderungen sowie gesammelte Daten werden hier
+            schnellstmöglich aktualisiert.
+          </li>
+          <li>
+            Alle Zahlen können sich laut der Offiziellen Ankündigung noch ändern. Bitte bedenkt dies bei jeglicher entscheidung die ihr in eurer
+            Strategie trefft, das immer ein gewisses Risiko existiert.
+          </li>
+          <li>
+            Alle Daten bis auf jedes 100. level wurden "manuell" von existierenden Stufen auf Beta gesammelt, und sind deswegen nicht vollständig
+            sondern limitiert an den vorhandenen Stufen.
+          </li>
+          <li>Bei Fehler oder Vorschlägen, schreibt mir gerne im Spiel (Tredec - de5) oder auf Discord (@xlii) :)</li>
+        </ul>
+      </div>
+      <span class="marker" style="color: gold">Goldene LG </span>
+    </div>
+    <div id="main-container">
+      <div id="inspector-introduction">
+        <div style="font-size: 1.4rem; text-align: center">Wichtige vorabinfo:</div>
+        <ul>
+          <li>
+            <span class="red">Rote</span> Zahlen sind fehlende Datenpunkte und sind linear aus der differenz Zwischen den umliegenden bekannten leveln
+            ausgerechnet und werden nicht 100% stimmen.
+          </li>
+          <li>FP, Güter und weitere Medallienkosten werden nach und nach hinzugefügt, sowie Optionen um mit Mäzenbonus zu rechnen.</li>
+          <li>
+            Genaue Werte für die einzelnen Effekte wie für Burg und Saatgut sind noch unklar, und werden in der jeweiligen Beschriebung aktualisiert
+            sobald die Daten vorhanden sind.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
