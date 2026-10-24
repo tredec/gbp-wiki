@@ -19,6 +19,7 @@ body {
   position: sticky;
   top: 0;
   max-width: 100vw;
+  z-index: 100;
 }
 #main-selector {
   margin-left: 12vw;
@@ -137,7 +138,8 @@ body {
   margin-inline: 1rem;
   font-size: 1.3rem;
 }
-.gb-input-wrapper input {
+.gb-input-wrapper input,
+.contribution-wrapper input {
   appearance: none;
   background: rgb(36, 38, 95);
   color: rgb(202, 200, 199);
@@ -151,7 +153,6 @@ body {
   font-size: 0.9rem;
 }
 .max-level-slider {
-  margin-top: 1.5rem;
   min-width: 15rem;
 }
 #inspector-introduction {
@@ -166,6 +167,12 @@ body {
   margin-top: 0.3em;
 }
 
+#level-display {
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+  font-size: 1.5rem;
+}
+
 .stats-wrapper {
   margin-top: 1rem;
   font-size: 0.9rem;
@@ -176,7 +183,7 @@ body {
 .stats-wrapper tbody td {
   border-bottom: 1px solid rgba(255, 255, 255, 0.295);
 }
-.stats-wrapper tbody tr:nth-of-type(4) td {
+.stats-wrapper tbody tr:nth-of-type(6) td {
   border-bottom: 1px solid white;
 }
 .stats-wrapper img {
@@ -188,6 +195,17 @@ body {
 }
 .red {
   color: rgb(214, 37, 37);
+}
+.contribution-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.25rem;
+}
+.contribution-wrapper img {
+  max-height: 1.8em;
+}
+.contribution-wrapper input {
+  max-width: 3.75em;
 }
 
 .effect-info {
@@ -255,6 +273,11 @@ body {
   #overview-introduction ul,
   #inspector-introduction ul {
     font-size: 0.65rem;
+  }
+  #level-display {
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    font-size: 1.1rem;
   }
   .stats-wrapper {
     font-size: 0.7rem;
