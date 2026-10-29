@@ -175,22 +175,82 @@ body {
 
 .stats-wrapper {
   margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.stats-field-costs,
+.effects-wrapper {
+  background-color: rgb(33, 38, 95);
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.stats-field-costs > :first-child,
+.effects-wrapper > :first-child {
+  font-size: 0.9rem;
+  user-select: none;
+}
+.stats-field-costs > div:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5em;
+  margin-top: 0.4em;
+}
+.stats-field-costs .bubble {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  padding: 0.45em 0.5em;
+  background-color: rgb(20, 23, 54);
+  border-radius: 0.5em;
+  user-select: none;
+}
+.stats-field-costs .bubble .bubble-title {
+  font-size: 0.7rem;
+  color: rgb(167, 166, 166);
+}
+.stats-field-costs .bubble :last-child {
   font-size: 0.9rem;
 }
-.stats-wrapper td {
+.stats-field-costs .bubble img {
+  width: 1.2em;
+}
+.stats-field-costs .bubble div {
+  display: flex;
+  align-items: center;
+  gap: 0.1em;
+}
+.stats-field-costs svg:hover {
+  transform: scale(1.2);
+}
+.effects-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-inline: auto;
+}
+.effects-wrapper tbody {
+  font-size: 0.9rem;
+  background-color: #22275e;
+}
+.effects-wrapper tbody tr:nth-child(2n + 1) {
+  background-color: #292f70;
+}
+.effects-wrapper td {
   padding: 0.5em 0.8em;
 }
-.stats-wrapper tbody td {
+.effects-wrapper tbody td {
   border-bottom: 1px solid rgba(255, 255, 255, 0.295);
 }
-.stats-wrapper tbody tr:nth-of-type(6) td {
-  border-bottom: 1px solid white;
+.effects-wrapper tbody tr:nth-of-type(1) td {
+  border-top: 1px solid rgba(255, 255, 255, 0.295);
 }
-.stats-wrapper img {
+.effects-wrapper img {
   max-height: 1.2em;
   margin-right: 0.5em;
 }
-.stats-wrapper td div {
+.effects-wrapper td div {
   display: flex;
 }
 .red {
@@ -248,7 +308,7 @@ body {
   clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
   transform: translate(-50%, -10%);
 } */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 700px) {
   :root {
     font-size: 1.3rem;
   }
@@ -279,9 +339,19 @@ body {
     margin-bottom: 0.5em;
     font-size: 1.1rem;
   }
-  .stats-wrapper {
+  .stats-field-costs .bubble {
+    padding: 0.45em 0.25em;
+  }
+  .stats-field-costs .bubble :last-child {
     font-size: 0.7rem;
   }
+  .stats-field-costs > div:nth-child(2) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .effects-wrapper tbody {
+    font-size: 0.7rem;
+  }
+
   .effect-info {
     padding-inline: 0.55em;
   }
