@@ -1,0 +1,612 @@
+{
+  "attdef_redblue": {
+    "de": {
+      "name": "Angriff & Verteidigung - Rot & Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "Attack & Defense - Red & Blue",
+      "description": ""
+    }
+  },
+  "attdef_blue": {
+    "de": {
+      "name": "Angriff & Verteidigung - Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "Attack & Defense - Blue",
+      "description": ""
+    }
+  },
+  "attdef_red": {
+    "de": {
+      "name": "Angriff & Verteidigung - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "Attack & Defense - Red",
+      "description": ""
+    }
+  },
+  "att_red": {
+    "de": {
+      "name": "Angriff - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "Attack - Red",
+      "description": ""
+    }
+  },
+  "attdef_redblue_gbg": {
+    "de": {
+      "name": "GG Angriff & Verteidigung - Rot & Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "GBG Attack & Defense - Red & Blue",
+      "description": ""
+    }
+  },
+  "attdef_redblue_mult": {
+    "de": {
+      "name": "Angriff & Verteidigung Multiplikator - Rot & Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "Attack & Defense Multiplicator - Red & Blue",
+      "description": ""
+    }
+  },
+  "attdef_blue_gbg_mult": {
+    "de": {
+      "name": "GG Angriff & Verteidigung Multiplikator - Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "GBG Attack & Defense Multiplicator - Blue",
+      "description": ""
+    }
+  },
+  "attdef_red_gbg_mult": {
+    "de": {
+      "name": "GG Angriff & Verteidigung Multiplikator - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "GBG Attack & Defense Multiplicator - Red",
+      "description": ""
+    }
+  },
+  "attdef_red_ge": {
+    "de": {
+      "name": "Gex Angriff & Verteidigung - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "GE Attack & Defense - Red",
+      "description": ""
+    }
+  },
+  "attdef_red_ge_mult": {
+    "de": {
+      "name": "Gex Angriff & Verteidigung Multiplikator - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "GE Attack & Defense Multiplicator - Red",
+      "description": ""
+    }
+  },
+  "attdef_blue_ge_mult": {
+    "de": {
+      "name": "Gex Angriff & Verteidigung Multiplikator - Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "GE Attack & Defense Multiplicator - Blue",
+      "description": ""
+    }
+  },
+  "def_blue_ge_mult": {
+    "de": {
+      "name": "Gex Verteidigung Multiplikator - Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "GE Defense Multiplicator - Blue",
+      "description": ""
+    }
+  },
+  "def_red_qi_mult": {
+    "de": {
+      "name": "QI Verteidigung Multiplikator - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "QI Defense Multiplicator - Red",
+      "description": ""
+    }
+  },
+  "att_blue_gbg_mult": {
+    "de": {
+      "name": "GG Angriff Multiplikator - Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "GBG Attack Multiplicator - Blue",
+      "description": ""
+    }
+  },
+  "att_red_gbg_mult": {
+    "de": {
+      "name": "GG Angriff Multiplikator - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "GBG Attack Multiplicator - Red",
+      "description": ""
+    }
+  },
+  "att_blue_qi_mult": {
+    "de": {
+      "name": "QI Angriff Multiplikator - Blau",
+      "description": ""
+    },
+    "en": {
+      "name": "QI Attack Multiplicator - Blue",
+      "description": ""
+    }
+  },
+  "att_red_qi_mult": {
+    "de": {
+      "name": "QI Angriff Multiplikator - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "QI Attack Multiplicator - Red",
+      "description": ""
+    }
+  },
+  "penal_unit": {
+    "de": {
+      "name": "Strafeinheit",
+      "description": "Produziert unabhängige Einheiten zufällig aus den Militärgebäuden in deiner Stadt."
+    },
+    "en": {
+      "name": "Penal Unit",
+      "description": "Produces unattached units of a military building in the player's city every 24 hours."
+    }
+  },
+  "mysterious_shards": {
+    "de": {
+      "name": "Mysteriöse Scherben",
+      "description": "Eine Chance, in der aktiven Siedlung eine Scherben-Belohnung zu erhalten."
+    },
+    "en": {
+      "name": "Mysterious Shards",
+      "description": "A chance of spawning a Shard reward in the active Settlement."
+    }
+  },
+  "critical_hit": {
+    "de": {
+      "name": "Kritischer Treffer",
+      "description": "Bietet eine Chance, Einheiten desselben Zeitalters 150% Schaden zuzufügen."
+    },
+    "en": {
+      "name": "Critical Hit",
+      "description": "Gives a chance to deal 150% damage against units of the same age."
+    }
+  },
+  "strategy_points": {
+    "de": {
+      "name": "Forschung",
+      "description": "Produziert Forge-Punke."
+    },
+    "en": {
+      "name": "Research",
+      "description": "Produces Forge Points."
+    }
+  },
+  "all_units_critical_hit": {
+    "de": {
+      "name": "Verbesserter Kritischer Treffer",
+      "description": "Bietet eine Chance, Einheiten aus jedem Zeitalter - mit Ausnahme des Zeitalters deiner eigenen Einheit - 150% Schaden zuzufügen. Gilt nicht für Agenten."
+    },
+    "en": {
+      "name": "Enhanced Critical Hit",
+      "description": "Grants a chance to deal 150% damage against enemy units from any Age except your unit's Age. Doesn't apply to Rogues."
+    }
+  },
+  "diplomatic_gifts": {
+    "de": {
+      "name": "Diplomatische Geschenke",
+      "description": "Die ersten gewonnenen Verhandlungen (Siedlungen ausgenommen) bieten eine Chance auf eine zufällige Belohnung."
+    },
+    "en": {
+      "name": "Diplomatic Gifts",
+      "description": "The first number of victorious negotiation combination games (excluding settlements) have a chance of providing you with a random reward."
+    }
+  },
+  "special_goods": {
+    "de": {
+      "name": "Orbitaler Transfer",
+      "description": "Produziert Spezialgüter, sobald das Zeitalter „Arktische Zukunft“ erreicht ist. Die Wahrscheinlichkeiten und Arten der Spezialgüter variieren in den Zeitaltern nach der Arktischen Zukunft. Produziert Medaillen in früheren Zeitaltern."
+    },
+    "en": {
+      "name": "Orbital Transfer",
+      "description": "Produces special resources after reaching Arctic Future. The chances and types of special resources vary in the eras after Arctic Future. Produces medals in previous eras."
+    }
+  },
+  "special_goods_production_boost": {
+    "de": {
+      "name": "Spezialgüter Schub",
+      "description": "Erhöht die von deinen Gebäuden produzierten Spezialgütern um einen bestimmten Prozentsatz."
+    },
+    "en": {
+      "name": "Special Goods Production Boost",
+      "description": "Increases the Special Goods produced by your buildings by a percentage."
+    }
+  },
+  "totem_drop": {
+    "de": {
+      "name": "Reliktsuche",
+      "description": "Eine Chance das nach dem Lösen einer Begegnung in der Gex eine verstckete Reliktbelohnung auf der Karte erscheint."
+    },
+    "en": {
+      "name": "Relic Hunt",
+      "description": "A chance for spawning a hidden Relic reward on the Guild Expedition Map after solving an encounter."
+    }
+  },
+  "supplies": {
+    "de": {
+      "name": "Vorrats-Produktion",
+      "description": "Produziert Vorräte."
+    },
+    "en": {
+      "name": "Supply Production",
+      "description": "Produces Supplies."
+    }
+  },
+  "clan_goods": {
+    "de": {
+      "name": "Gildengüter",
+      "description": "Produziert Güter des aktuellen Zeitalters für die Gildenkasse."
+    },
+    "en": {
+      "name": "Guild Goods",
+      "description": "Produces some of each current good for the guild's treasury."
+    }
+  },
+  "plunder_and_pillage": {
+    "de": {
+      "name": "Plündern und Brandschatzen ",
+      "description": "Bietet eine chance Chance, geplünderte Ressourcen zu verdoppeln."
+    },
+    "en": {
+      "name": "Plunder and Pillage",
+      "description": "Adds a chance of doubling plundered resources."
+    }
+  },
+  "random_goods": {
+    "de": {
+      "name": "Güter-Produktion",
+      "description": "Produziert Güter des aktuellen Zeitalters."
+    },
+    "en": {
+      "name": "Goods production",
+      "description": "Produces random Goods from the players age."
+    }
+  },
+  "algorithmic_core": {
+    "de": {
+      "name": "Algorithmischer Kern",
+      "description": "Erhöht die ersten Sammlungen von Spezialgütern aus Produktionen nach Erreichen der Arktischen Zukunft. Erhöht stattdessen die Vorrats-Produktion aus Gebäuden in früheren Zeitaltern."
+    },
+    "en": {
+      "name": "Algorithmic Core",
+      "description": "Boosts the first special good collections from productions after reaching Arctic Future. Boosts supplies in earlier eras instead."
+    }
+  },
+  "aid_goods": {
+    "de": {
+      "name": "Hilfsgüter",
+      "description": "Wenn du ein Gebäude motivierst oder polierst, erhältst du bei den ersten Malen zufällige Güter aus dem Zeitalter dieses Gebäudes."
+    },
+    "en": {
+      "name": "Aid Goods",
+      "description": "The first number of times you aid a building you get a random good from that building's age."
+    }
+  },
+  "happiness": {
+    "de": {
+      "name": "Zufriedenheit",
+      "description": "Liefert Zufriedenheit."
+    },
+    "en": {
+      "name": "Happiness",
+      "description": "Provides Happiness."
+    }
+  },
+  "population": {
+    "de": {
+      "name": "Bevölkerung",
+      "description": "Liefert Bevölkerung."
+    },
+    "en": {
+      "name": "Population",
+      "description": "Provides Population."
+    }
+  },
+  "supplies_boost": {
+    "de": {
+      "name": "Vorrats Schub",
+      "description": "Erhöht die ersten einsammlungen von deinen Gebäuden produzierten Vorräten um einen bestimmten Prozentsatz."
+    },
+    "en": {
+      "name": "Supply boost",
+      "description": "The first number of collected Supply productions are boosted by a percentage."
+    }
+  },
+  "medals": {
+    "de": {
+      "name": "Medallien-Produktion",
+      "description": "Produziert Medallien."
+    },
+    "en": {
+      "name": "Medal production",
+      "description": "Produces Medals."
+    }
+  },
+  "missile_launch": {
+    "de": {
+      "name": "Raketenstart",
+      "description": "In den ersten paar Kämpfen besteht die Möglichkeit, zu Beginn der ersten Welle die Hälfte der gegnerischen Einheiten zu vernichten."
+    },
+    "en": {
+      "name": "Missile Launch",
+      "description": "For your first few battles, there's a chance to kill half the enemy units at the start of the first wave."
+    }
+  },
+  "missile_launch_wave_2": {
+    "de": {
+      "name": "Raketenstart - Zweite Welle",
+      "description": "In den ersten paar Kämpfen besteht die Möglichkeit, zu Beginn der zweiten Welle die Hälfte der gegnerischen Einheiten zu vernichten."
+    },
+    "en": {
+      "name": "Missile Launch - Second Wave",
+      "description": "For your first few battles, there's a chance to kill half the enemy units at the start of the second wave."
+    }
+  },
+  "coins": {
+    "de": {
+      "name": "Münz-Produktion",
+      "description": "Produziert Münzen."
+    },
+    "en": {
+      "name": "Coin Production",
+      "description": "Produces Coins."
+    }
+  },
+  "coin_boost": {
+    "de": {
+      "name": "Münz Schub",
+      "description": "Erhöht die ersten einsammlungen von deinen Gebäuden produzierten Münzen um einen bestimmten Prozentsatz."
+    },
+    "en": {
+      "name": "Coin boost",
+      "description": "The first number of collected Coin productions are boosted by a percentage."
+    }
+  },
+  "goods_production_boost": {
+    "de": {
+      "name": "Güter Schub",
+      "description": "Erhöht die von deinen Spezialgebäuden produzierten Gütern um einen bestimmten Prozentsatz."
+    },
+    "en": {
+      "name": "Goods boost",
+      "description": "Increases the Goods produced by your buildings by a percentage."
+    }
+  },
+  "previous_era_goods": {
+    "de": {
+      "name": "Güterproduktion des vorherigen Zeitalters",
+      "description": "Produziert alle 24 Stunden zufällige Güter aus dem vorherigen Zeitalter. In der Bronzezeit werden Güter der Bronzezeit produziert."
+    },
+    "en": {
+      "name": "Previous Era Goods Production",
+      "description": "Produces random goods from the player's previous age every 24 hours. For the Bronze Age it produces Bronze Age goods."
+    }
+  },
+  "clan_goods_extended": {
+    "de": {
+      "name": "Gildengüter - Benachbarte Zeitalter",
+      "description": "Produziert für die Gildenkasse jeweils einige Güter aus dem vorherigen, dem aktuellen und dem nächsten Zeitalter."
+    },
+    "en": {
+      "name": "Guild Goods - Adjacent Eras",
+      "description": "Produces some of each Good from the previous, current, and next Era for your Guild's Treasury. Can only be collected while you're in a Guild."
+    }
+  },
+  "quest_boost": {
+    "de": {
+      "name": "Quest-Belohnungs-Boost",
+      "description": "Wenn du Münzen, Vorräte, Güter, Diamanten oder Medaillen als Belohnung für Quests erhältst, bekommst du einen zusätzlichen prozentualen Anteil obendrauf."
+    },
+    "en": {
+      "name": "Quest Reward Boost",
+      "description": "When you get coins, supplies, goods, diamonds or medals as rewards from quests, you receive an additional percentage on top."
+    }
+  },
+  "allies_quest_boost": {
+    "de": {
+      "name": "Belohnungsbonus für Heldenschänke-Aufgaben",
+      "description": "Wenn du Belohnungen aus Heldenschänke-Aufgaben erhältst, bekommst du einen zusätzlichen prozentualen Anteil obendrauf."
+    },
+    "en": {
+      "name": "Heroic Tavern Quest Reward Boost",
+      "description": "When you get rewards from Heroic Tavern quests, you receive an additional percentage on top."
+    }
+  },
+  "contribution_boost": {
+    "de": {
+      "name": "Mäzenbonus",
+      "description": "Erhöht deine Belohnungen, wenn du zu den Kupfer-Stufen (0-100) anderer Kupfer-Legendäre Bauwerke beiträgst."
+    },
+    "en": {
+      "name": "Contribution Boost",
+      "description": "Increases your contribution rewards when you contribute to Copper levels (0-100) of other Copper Great Buildings"
+    }
+  },
+  "contribution_boost_gold": {
+    "de": {
+      "name": "Mäzenbonus (Gold)",
+      "description": "Erhöht deine Belohnungen, wenn du zu den Gold-Stufen (101+) anderer Gold-Legendäre Bauwerke beiträgst."
+    },
+    "en": {
+      "name": "Contribution Boost (Gold)",
+      "description": "Increases your contribution rewards when you contribute to Gold levels (101+) of other Gold Great Buildings"
+    }
+  },
+  "spoils_of_war": {
+    "de": {
+      "name": "Kriegsbeute",
+      "description": "Die ersten gewonnenen Kämpfe bieten die Chance, eine zufällige Belohnung zu erhalten."
+    },
+    "en": {
+      "name": "Spoils of War",
+      "description": "The first number of victorious battles have a chance of providing you with a random reward."
+    }
+  },
+  "spoils_of_war_enhanced": {
+    "de": {
+      "name": "Verbesserte Kriegsbeute",
+      "description": "Die ersten gewonnenen Kämpfe bieten die Chance, eine bessere zufällige Belohnung zu erhalten."
+    },
+    "en": {
+      "name": "Enhanced Spoils of War",
+      "description": "The first number of victorious battles have a chance of providing you with a better random reward."
+    }
+  },
+  "double_collection": {
+    "de": {
+      "name": "Doppeltes Einsammeln",
+      "description": "Bei den ersten gesammelten Gebäuden besteht die Chance, dass gesammelte Ressourcen verdoppelt werden."
+    },
+    "en": {
+      "name": "Double Collection",
+      "description": "For the first number of buildings collected, there is a chance the collection is doubled."
+    }
+  },
+  "guild_raids_double_collection": {
+    "de": {
+      "name": "QI Doppeltes Einsammeln",
+      "description": "Bei den ersten gesammelten Gebäuden in der QI Siedlung besteht die Chance, dass die Ressourcen verdoppelt werden. Ausgenommen ist das Rathaus der Siedlung."
+    },
+    "en": {
+      "name": "Quantum Incursions Double Collection",
+      "description": "For your first few collections in your Quantum Incursions settlement, there's a chance the collection is doubled. Excludes the settlement Town Hall."
+    }
+  },
+  "first_strike": {
+    "de": {
+      "name": "Erstschlag",
+      "description": "In den ersten Kämpfen besteht die Chance, zu Beginn der ersten Welle eine gegnerische Einheit zu vernichten."
+    },
+    "en": {
+      "name": "First Strike",
+      "description": "For your first few battles, there's a chance to kill one enemy unit at the start of the first wave."
+    }
+  },
+  "second_strike": {
+    "de": {
+      "name": "Zweitschlag",
+      "description": "In den ersten Kämpfen besteht die Chance, zu Beginn der zweiten Welle eine gegnerische Einheit zu vernichten."
+    },
+    "en": {
+      "name": "Second Strike",
+      "description": "For your first few battles, there's a chance to kill one enemy unit at the start of the second wave."
+    }
+  },
+  "helping_hands": {
+    "de": {
+      "name": "Helfende Hände",
+      "description": "Bietet die Chance auf eine Belohnung, wenn du anderen Spielern hilfst."
+    },
+    "en": {
+      "name": "Helping Hands",
+      "description": "Adds a chance of getting a reward when you aid other players."
+    }
+  },
+  "helping_hands_boosted": {
+    "de": {
+      "name": "Verbesserte Helfende Hände",
+      "description": "Bietet die Chance auf eine bessere Belohnung, wenn du anderen Spielern hilfst."
+    },
+    "en": {
+      "name": "Improved Helping Hands",
+      "description": "Adds a chance of getting a better reward when you aid other players."
+    }
+  },
+  "plunder_repel": {
+    "de": {
+      "name": "Plünderabwehr",
+      "description": "Die ersten Plünderungsversuche, denen man ausgesetzt ist, haben eine Chance, abgewehrt zu werden."
+    },
+    "en": {
+      "name": "Plunder Repel",
+      "description": "The first number of suffered plunder attempts have a chance of being repelled."
+    }
+  },
+  "goods_reserves": {
+    "de": {
+      "name": "Gütervorrat",
+      "description": "Produziert alle 24 Stunden Güter, die zufällig aus den in deiner Stadt platzierten Gütergebäuden ausgewählt werden."
+    },
+    "en": {
+      "name": "Goods Reserve",
+      "description": "Produces Goods every 24 hours, randomly chosen from any type of Goods building placed in your City."
+    }
+  },
+  "aid_boost": {
+    "de": {
+      "name": "Hilfs-Kupferblaupausen",
+      "description": "Erhöhte Chance, beim Unterstützen eines anderen Spielers einen Kupfer-Blaupause zu finden"
+    },
+    "en": {
+      "name": "Aid Copper Blueprints",
+      "description": "Increased chance of finding a Copper Blueprint from the normal chance when you aid another player."
+    }
+  },
+  "science_ally_boost": {
+    "de": {
+      "name": "Wissenschafts-Verbündeten-Bonus",
+      "description": "Verstärkt historische Verbündete der Kategorie Wissenschaft; dies entspricht dem Erhalt zusätzlicher Stufen für einen Verbündeten. Er kann die effektive Stufe eines Verbündeten über 100 hinaus steigern."
+    },
+    "en": {
+      "name": "Science Ally Boost",
+      "description": "Enhances Science Historical Allies, the same as gaining extra levels on an ally. It can raise an ally's effective level past 100."
+    }
+  },
+  "plunder_goods": {
+    "de": {
+      "name": "Plünder-Güter",
+      "description": "Die ersten male wenn du ein Gebäude plünderst, erhältst du ein zufälliges Gut aus dem Zeitalter dieses Gebäudes."
+    },
+    "en": {
+      "name": "Plunder Goods",
+      "description": "The first number of times you plunder a building you get a random good from that building's age."
+    }
+  },
+  "military_ally_boost": {
+    "de": {
+      "name": "Militär-Verbündeten-Bonus",
+      "description": "Verstärkt historische Verbündete der Kategorie Militär; dies entspricht dem Erhalt zusätzlicher Stufen für einen Verbündeten. Er kann die effektive Stufe eines Verbündeten über 100 hinaus steigern."
+    },
+    "en": {
+      "name": "Millitary Ally Boost",
+      "description": "Enhances Millitary Historical Allies, the same as gaining extra levels on an ally. It can raise an ally's effective level past 100."
+    }
+  }
+}
