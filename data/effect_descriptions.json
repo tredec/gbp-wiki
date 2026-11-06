@@ -169,6 +169,26 @@
       "description": ""
     }
   },
+  "att_red_ge_mult": {
+    "de": {
+      "name": "Gex Angriff Multiplikator - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "GE Attack Multiplicator - Red",
+      "description": ""
+    }
+  },
+  "def_red_ge_mult": {
+    "de": {
+      "name": "Gex Verteidigung Multiplikator - Rot",
+      "description": ""
+    },
+    "en": {
+      "name": "GE Defense Multiplicator - Red",
+      "description": ""
+    }
+  },
   "penal_unit": {
     "de": {
       "name": "Strafeinheit",

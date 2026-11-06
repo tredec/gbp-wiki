@@ -43,7 +43,7 @@
   "X_IronAge_Landmark2": ["supplies_boost", "random_goods"],
   "X_IronAge_Landmark1": ["happiness", "medals", "military_ally_boost"],
   "X_BronzeAge_Landmark1": ["population", "random_goods"],
-  "X_BronzeAge_Landmark2": ["att_red", "attdef_red_ge_mult"],
+  "X_BronzeAge_Landmark2": ["att_red", "att_red_ge_mult","def_red_ge_mult"],
   "X_SpaceAgeTitan_Landmark3": ["attdef_redblue", "clan_goods"],
   "X_SpaceAgeTitan_Landmark1": ["attdef_red", "previous_era_goods"],
   "X_SpaceAgeTitan_Landmark2": ["attdef_blue", "strategy_points"],
